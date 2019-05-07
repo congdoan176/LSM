@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<p th:each ="categories:${categories}">Id : <a th:text="${categories.id}"></a></p>
+		<p th:each ="categories:${categories}">Name : <a th:text="${categories.name}"></a></p>
+		<p th:each ="categories:${categories}">Total Course : <a th:text="${categories.total}"></a></p>
+		<p th:each ="categories:${categories}"><img th:src="${categories.img}" width="80px" height="80px"></p>
+	</div>
+	<a href="/category/index.html">Back to list.</a>
+</body>
+</html>
