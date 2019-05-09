@@ -32,4 +32,5 @@ public class Category {
 		this.total = total;
 	}
 	
+	
 }
